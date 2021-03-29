@@ -1,0 +1,52 @@
+.card {
+  cursor: unset;
+  overflow: hidden;
+}
+
+.cover {
+  min-height: 160px;
+  max-width: 575px;
+  width: 100%;
+}
+
+.description {
+  margin-top: 15px;
+}
+
+.cardInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 25px;
+}
+
+.priceWrapper {
+  position: relative;
+}
+
+.oldPrice {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: line-through;
+  color: #a6a5a5;
+  position: absolute;
+  top: -13px;
+  left: 0;
+}
+
+.currentPrice {
+  font-size: 24px;
+  line-height: 1;
+  color: #333;
+}
+
+.currentPriceWithDiscount {
+  font-size: 24px;
+  line-height: 1;
+  color: #f84147;
+}
+
+.timeLeft {
+  maxwidth: 85px;
+}

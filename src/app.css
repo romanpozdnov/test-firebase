@@ -1,0 +1,40 @@
+@import '~antd/dist/antd.css';
+
+.layout {
+  min-height: 100vh;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.auth-form {
+  max-width: 400px;
+  width: 100%;
+}
+
+.auth-btn {
+  margin-right: 20px;
+}
+
+.product-form {
+  max-width: 500px;
+  width: 100%;
+}
+
+.site-form-item-icon {
+  color: rgba(0, 0, 0, 0.25);
+  padding-right: 10px;
+}
+
+.ant-card-body {
+  min-height: 200px;
+}
+
+.error .ant-upload .ant-btn {
+  border-color: #ff4d4f;
+  color: #ff4d4f;
+}
